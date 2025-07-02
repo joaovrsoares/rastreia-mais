@@ -22,7 +22,7 @@ def popular_dados_exemplo():
         ("PC-0001", "Volkswagen Amarok", 2021, "P. Civil", 35000),
         ("PF-0001", "Ford Ranger", 2023, "P. Federal", 8000),
         ("PM-0002", "Honda CB 600", 2022, "P. Militar - ROCAM", 18000),
-        ("PM-0002", "Hyundai Creta", 2023, "P. Militar - PROERD", 26500),
+        ("PM-0003", "Hyundai Creta", 2023, "P. Militar - PROERD", 26500),
     ]
     
     # Cadastrar viaturas
