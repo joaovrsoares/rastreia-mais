@@ -474,13 +474,13 @@ def ver_alertas_menu(sistema):
         print("Nenhum alerta de manutenção!")
         return
     
-    print(f"\n{'Nº Viatura':<12} {'Modelo':<15} {'Manutenção':<20} {'Km Rest.':<10} {'Dias Rest.':<12} {'Status'}")
+    print(f"\n{'Nº Viatura':<12} {'Modelo':<20} {'Manutenção':<20} {'Km Rest.':<10} {'Dias Rest.':<12} {'Status'}")
     print("-" * 87)
     
     for num_vtr, modelo, odometro_atual, manutencao, proximo_odo, proxima_data, km_rest, dias_rest in alertas:
         if dias_rest <= 0 or km_rest <= 0:
             status = "🔴 VENCIDO"
-        elif dias_rest <= 7 or km_rest <= 100:
+        elif dias_rest <= 14 or km_rest <= 250:
             status = "🟠 URGENTE"
         else:
             status = "🟡 ATENÇÃO"
@@ -488,7 +488,7 @@ def ver_alertas_menu(sistema):
         km_rest_str = f"{int(km_rest):,}" if km_rest > 0 else "0"
         dias_rest_str = f"{int(dias_rest)}" if dias_rest > 0 else "0"
         
-        print(f"{num_vtr:<12} {modelo:<15} {manutencao:<20} {km_rest_str:<10} {dias_rest_str:<12} {status}")
+        print(f"{num_vtr:<12} {modelo:<20} {manutencao:<20} {km_rest_str:<10} {dias_rest_str:<12} {status}")
 
 
 def historico_viatura_menu(sistema):

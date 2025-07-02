@@ -26,7 +26,7 @@ Desenvolvido para a disciplina de **Prática Profissional e Inserção Comunitá
 - **Alertas automáticos** para manutenções próximas do vencimento
 - **Códigos de cor** para priorização:
     - 🔴 **VENCIDO** - Manutenção já passou do prazo
-    - 🟠 **URGENTE** - Vence em até 7 dias ou 100 km
+    - 🟠 **URGENTE** - Vence em até 14 dias ou 250 km
     - 🟡 **ATENÇÃO** - Vence em até 30 dias ou 500 km
 
 ### 📊 Relatórios e Histórico
