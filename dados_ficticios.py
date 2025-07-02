@@ -17,7 +17,6 @@ def popular_dados_exemplo():
     # Inicializar sistema
     sistema = SistemaGerenciamentoFrota()
     
-<<<<<<< HEAD
     # Viaturas de exemplo com dados 
     viaturas = [
         ("PM-0001", "Chevrolet Tracker", 2022, "P. Militar"),
@@ -26,16 +25,6 @@ def popular_dados_exemplo():
         ("PF-0001", "Ford Ranger", 2023, "P. Federal"),
         ("PM-0002", "Honda CB 600", 2022, "P. Militar - ROCAM"),
         ("PM-0003", "Hyundai Creta", 2023, "P. Militar - PROERD"),
-=======
-    # Viaturas de exemplo
-    viaturas_exemplo = [
-        ("PM-0001", "Chevrolet Tracker", 2022, "P. Militar", 15000),
-        ("CBM-0001", "Mercedes Sprinter", 2020, "Corpo de Bombeiros", 45000),
-        ("PC-0001", "Volkswagen Amarok", 2021, "P. Civil", 35000),
-        ("PF-0001", "Ford Ranger", 2023, "P. Federal", 8000),
-        ("PM-0002", "Honda CB 600", 2022, "P. Militar - ROCAM", 18000),
-        ("PM-0003", "Hyundai Creta", 2023, "P. Militar - PROERD", 26500),
->>>>>>> be8ff95ede5ebdb0921998a2b25ac192dad7091a
     ]
     
     # 1. Cadastrar viaturas com odômetros aleatórios
